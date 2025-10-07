@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form de Registro com validações em JS</title>
+    <link rel="stylesheet" href="estilocadastro.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Cadastro -->
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input type="text" id="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <div class="sign-link">
+                    <p>Já tem uma conta? <a href="#" class="signIn-link">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Login -->
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="text" id="login-username" required>
+                    <label for="login-username">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="login-password" required>
+                    <label for="login-password">Password</label>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="sign-link">
+                    <p>Não tem uma conta? <a href="#" class="signUp-link">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="classValidatordoleilão.js"></script>
+</body>
+
+</html>
